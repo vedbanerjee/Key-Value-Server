@@ -1,29 +1,3 @@
-// package main
-
-// import (
-// 	"fmt"
-// 	"io/ioutil"
-// 	"log"
-// 	"net/http"
-// )
-
-// func main() {
-// 	// Make a GET request to the server
-// 	resp, err := http.Get("http://localhost:8080/")
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-// 	defer resp.Body.Close() // Close the response body when done
-
-// 	// Read the response body
-// 	body, err := ioutil.ReadAll(resp.Body)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-
-// 	fmt.Printf("Server response: %s\n", body)
-// }
-
 package main
 
 import (
