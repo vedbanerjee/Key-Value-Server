@@ -138,7 +138,7 @@ func del(w http.ResponseWriter, req *http.Request) {
 
 func main() {
     var err error
-    db, err = sql.Open("mysql", "root:vedmumbai2003@tcp(127.0.0.1:3306)/decsdb")
+    db, err = sql.Open("mysql", "root:password@tcp(127.0.0.1:3306)/decsdb")
     if err != nil {
         log.Fatalf("Failed to connect to the database: %v", err)
     }
